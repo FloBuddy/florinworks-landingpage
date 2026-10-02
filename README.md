@@ -12,6 +12,10 @@ python3 -m http.server 4174 --bind 127.0.0.1 --directory dist
 
 Open `http://127.0.0.1:4174`.
 
+## Deployment
+
+Every push to `main` publishes `dist/` to GitHub Pages through `.github/workflows/pages.yml`. The custom domain `florinworks.dev` is set in the repository's Pages settings.
+
 ## How it is built
 
 - `liquid.js` renders the hero's liquid glass ribbon with a single WebGL fragment shader. No libraries. It follows the cursor, pauses when off screen or in a background tab, and draws one still frame when the visitor prefers reduced motion. Without WebGL, a CSS gradient stands in.
@@ -20,4 +24,4 @@ Open `http://127.0.0.1:4174`.
 
 ## Adding a project
 
-Copy the `<li class="project">` block in `dist/index.html`, set its number, name, description, tags, link and `--tint` colour, and add a strip image to `dist/assets/work/` (about 1200 px wide, WebP).
+Copy a `<li class="project">` block into the right group (Free tools or Apps) in `dist/index.html`, set its number, name, label (`p-kind`), description, tags, link and `--tint` colour, and add a strip image to `dist/assets/work/` (about 1200 px wide, WebP).

@@ -89,7 +89,14 @@ em{font-family:var(--serif);font-style:italic;font-weight:400;letter-spacing:-.0
 .work-head{display:grid;grid-template-columns:1fr minmax(0,380px);gap:40px;align-items:end;margin-bottom:56px}
 .work-head h2{font-size:clamp(56px,8vw,112px);line-height:.95}
 .work-head p{color:var(--fg-2);font-size:16px}
-.projects{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.projects{list-style:none;margin:0 0 72px;padding:0;border-top:1px solid var(--line)}
+.projects:last-child{margin-bottom:0}
+.group-head{display:flex;justify-content:space-between;align-items:baseline;gap:24px;flex-wrap:wrap;margin-bottom:18px}
+.group-head h3{font:400 13px/1 var(--mono);letter-spacing:.16em;text-transform:uppercase;color:var(--fg)}
+.group-head h3 em{font-family:inherit;font-style:normal;letter-spacing:inherit}
+.group-head p{font-size:14px;color:var(--fg-3)}
+.p-kind{display:inline-block;vertical-align:.55em;margin-left:.35em;font:400 10.5px/1 var(--mono);letter-spacing:.1em;text-transform:uppercase;padding:6px 9px;border-radius:99px;border:1px solid var(--accent);color:var(--accent)}
+.p-kind.app{border-color:var(--ember);color:var(--ember)}
 .project{border-bottom:1px solid var(--line)}
 .project-link{display:grid;grid-template-columns:clamp(60px,8vw,120px) minmax(0,1.1fr) minmax(0,1.2fr) 210px 64px;gap:clamp(16px,2.4vw,36px);align-items:center;padding:clamp(22px,3vw,34px) 0;position:relative}
 .p-num{font:400 clamp(44px,6vw,80px)/1 var(--serif);font-style:italic;color:var(--fg-3);transition:color .4s}
@@ -109,7 +116,7 @@ a.project-link:hover .p-name{transform:translateX(10px)}
 a.project-link:hover .p-strip img{filter:none;transform:scale(1)}
 a.project-link:hover .p-strip::after{opacity:.35}
 a.project-link:hover .p-go{background:var(--fg);color:var(--bg);transform:rotate(-45deg)}
-.upcoming .p-name{color:var(--fg-2)}
+.upcoming .p-name{color:var(--fg-2);font-size:clamp(30px,3.4vw,50px)}
 .upcoming .p-go{border-style:dashed;color:var(--fg-3)}
 
 /* ---------- about ---------- */
