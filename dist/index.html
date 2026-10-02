@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#050507">
+  <meta name="description" content="florinworks is where Florin Ilie keeps his software: quiet, carefully made desktop apps and tools. Each project has its own page.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="florinworks | Software, made with care">
+  <meta property="og:description" content="Quiet, carefully made desktop apps and tools by Florin Ilie.">
+  <meta property="og:url" content="https://florinworks.dev/">
+  <meta name="twitter:card" content="summary">
+  <title>florinworks | Software, made with care</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23050507'/%3E%3Ctext x='16' y='23' text-anchor='middle' font-family='Georgia,serif' font-style='italic' font-size='20' fill='%23e9ecf2'%3Ef%3C/text%3E%3Ccircle cx='24' cy='22' r='2' fill='%238fb4ff'/%3E%3C/svg%3E">
+  <link rel="preload" href="assets/fonts/instrument-serif-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/geist-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="cursor" aria-hidden="true"><span></span></div>
+
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="florinworks home">florinworks<span>.</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- HERO: WebGL liquid glass ribbon -->
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <canvas class="liquid" id="liquid" aria-hidden="true"></canvas>
+      <div class="hero-fallback" aria-hidden="true"></div>
+      <div class="hero-inner">
+        <p class="kicker load" style="--i:0">Florin Ilie <i>·</i> independent software</p>
+        <h1 id="hero-title">
+          <span class="line"><span class="load" style="--i:1">Software,</span></span>
+          <span class="line"><span class="load" style="--i:2"><em>made with care.</em></span></span>
+        </h1>
+        <p class="hero-copy load" style="--i:3">Desktop apps and tools for writing, thinking and making. Small in scope, finished with attention. Each one has its own page.</p>
+        <a class="hero-cta load" style="--i:4" href="#work">Explore the work <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-foot load" style="--i:5" aria-hidden="true">
+        <span>Move your cursor</span>
+        <span class="scroll-line"><i></i></span>
+        <span>Scroll</span>
+      </div>
+    </section>
+
+    <!-- KINETIC BAND -->
+    <section class="band" aria-label="florinworks">
+      <div class="band-track" data-band="1">
+        <span class="out">Florin</span><span class="solid">Works</span><span class="star">✳</span><span class="out">Florin</span><span class="solid">Works</span><span class="star">✳</span><span class="out">Florin</span><span class="solid">Works</span><span class="star">✳</span><span class="out">Florin</span><span class="solid">Works</span><span class="star">✳</span>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section class="work" id="work" aria-labelledby="work-title">
+      <div class="work-head">
+        <h2 id="work-title" class="reveal"><em>selected work</em></h2>
+        <p class="reveal">Software for a calmer desk. Every project opens on its own page, with screenshots, a short film or a live demo.</p>
+      </div>
+
+      <ol class="projects">
+        <li class="project reveal" style="--tint:#2f8a62">
+          <a href="https://folio.florinworks.dev" class="project-link">
+            <span class="p-num">01</span>
+            <span class="p-title">
+              <span class="p-name">Folio</span>
+              <span class="p-desc">Markdown &amp; HTML editor for Mac and Windows</span>
+            </span>
+            <span class="p-strip"><img src="assets/work/folio-split.webp" alt="" width="1200" height="782" loading="lazy"></span>
+            <span class="p-tags"><span>macOS</span><span>Windows</span><span>2026</span></span>
+            <span class="p-go" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.4"/></svg></span>
+          </a>
+        </li>
+        <li class="project reveal" style="--tint:#b6f25a">
+          <a href="https://if-calc.vercel.app" class="project-link">
+            <span class="p-num">02</span>
+            <span class="p-title">
+              <span class="p-name">IF Calc</span>
+              <span class="p-desc">Intermittent fasting calculator, a classic Flash app rebuilt for the web</span>
+            </span>
+            <span class="p-strip"><img src="assets/work/if-calc.webp" alt="" width="1200" height="785" loading="lazy"></span>
+            <span class="p-tags"><span>Web</span><span>Free</span></span>
+            <span class="p-go" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.4"/></svg></span>
+          </a>
+        </li>
+        <li class="project upcoming reveal">
+          <div class="project-link" aria-disabled="true">
+            <span class="p-num">03</span>
+            <span class="p-title">
+              <span class="p-name">In the workshop</span>
+              <span class="p-desc">The next project gets its page when it is ready</span>
+            </span>
+            <span class="p-strip p-strip-empty" aria-hidden="true"><i></i></span>
+            <span class="p-tags"><span>Soon</span></span>
+            <span class="p-go" aria-hidden="true">·</span>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about" aria-labelledby="about-title">
+      <div class="about-grid">
+        <div>
+          <p class="label reveal">About</p>
+          <h2 id="about-title" class="reveal">One person.<br><em>A few good tools.</em></h2>
+        </div>
+        <div class="about-copy">
+          <p class="reveal">I'm Florin. I build software I want to use myself, then keep polishing it until it feels quiet and obvious. florinworks is where those projects live.</p>
+          <ul class="principles">
+            <li class="reveal"><span>01</span><div><h3>Your files stay yours</h3><p>Plain formats, saved on your own machine. No accounts unless they're truly needed.</p></div></li>
+            <li class="reveal"><span>02</span><div><h3>Native where it counts</h3><p>Real file dialogs, real shortcuts, at home on Mac and on Windows.</p></div></li>
+            <li class="reveal"><span>03</span><div><h3>Finished, not featureful</h3><p>Fewer things, done properly. Every detail gets a second look.</p></div></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <p class="label reveal">Contact</p>
+      <h2 id="contact-title" class="reveal"><a href="https://github.com/FloBuddy" rel="noopener" class="big-link">Say hello <span aria-hidden="true">↗</span></a></h2>
+      <p class="reveal contact-note">Find me on GitHub as <a href="https://github.com/FloBuddy" rel="noopener">@FloBuddy</a>.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>© 2026 Florin Ilie</span>
+    <span>florinworks.dev</span>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
+  <script src="liquid.js" defer></script>
+  <script src="app.js" defer></script>
+</body>
+</html>
