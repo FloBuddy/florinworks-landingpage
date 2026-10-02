@@ -24,4 +24,4 @@ Vercel deploys every push to `main` (output directory `dist`, no build step) to 
 
 ## Adding a project
 
-Copy a `<li class="project">` block into the right group (Free tools or Apps) in `dist/index.html`, set its number, name, label (`p-kind`), description, tags, link and `--tint` colour, and add a strip image to `dist/assets/work/` (about 1200 px wide, WebP).
+Copy a `<li class="project">` block into the right group (Free tools, Platforms or Apps) in `dist/index.html`, set its number, name, label (`p-kind`), description, tags, link and `--tint` colour, and add a strip image to `dist/assets/work/` (about 1200 px wide, WebP).

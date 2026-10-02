@@ -97,6 +97,7 @@ em{font-family:var(--serif);font-style:italic;font-weight:400;letter-spacing:-.0
 .group-head p{font-size:14px;color:var(--fg-3)}
 .p-kind{display:inline-block;vertical-align:.55em;margin-left:.35em;font:400 10.5px/1 var(--mono);letter-spacing:.1em;text-transform:uppercase;padding:6px 9px;border-radius:99px;border:1px solid var(--accent);color:var(--accent)}
 .p-kind.app{border-color:var(--ember);color:var(--ember)}
+.p-kind.live{border-color:#3fd1ad;color:#3fd1ad}
 .project{border-bottom:1px solid var(--line)}
 .project-link{display:grid;grid-template-columns:clamp(60px,8vw,120px) minmax(0,1.1fr) minmax(0,1.2fr) 210px 64px;gap:clamp(16px,2.4vw,36px);align-items:center;padding:clamp(22px,3vw,34px) 0;position:relative}
 .p-num{font:400 clamp(44px,6vw,80px)/1 var(--serif);font-style:italic;color:var(--fg-3);transition:color .4s}
