@@ -14,7 +14,7 @@ Open `http://127.0.0.1:4174`.
 
 ## Deployment
 
-Every push to `main` publishes `dist/` to GitHub Pages through `.github/workflows/pages.yml`. The custom domain `florinworks.dev` is set in the repository's Pages settings.
+Vercel deploys every push to `main` (output directory `dist`, no build step) to florinworks.dev. The domain's DNS is managed in Vercel.
 
 ## How it is built
 
